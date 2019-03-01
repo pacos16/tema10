@@ -1,9 +1,9 @@
 package com.pacosignes.ex4;
 
-public class ICola {
-    boolean add(String e);
-    String remove();
+public interface ICola<T> {
+    boolean add(T e);
+    T remove();
     int size();
-    String peek();
+    T peek();
     boolean isEmpty();
 }
