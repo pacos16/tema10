@@ -1,17 +1,16 @@
-package com.pacosignes.ex10;
+package com.pacosignes      .ex10;
 
 import java.util.GregorianCalendar;
 
-public class Hijo {
-    private String nombre;
-    private GregorianCalendar fechaNacimiento;
+public class Hijo extends Persona{
+
 
     public Hijo(String nombre, GregorianCalendar fechaNacimiento) {
-        this.nombre = nombre;
-        this.fechaNacimiento = fechaNacimiento;
+        super(nombre,fechaNacimiento);
+
     }
 
-    //todo getEdad;
+
 
 
     @Override
